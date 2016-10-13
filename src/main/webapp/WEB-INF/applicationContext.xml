@@ -35,9 +35,9 @@
 	<!--连接数据库配置信息 -->
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://127.0.0.1:3306/mydb" />
-		<property name="username" value="shanban" />
-		<property name="password" value="shanban666" />
+		<property name="url" value="jdbc:mysql://127.0.0.1:3306/crm?characterEncoding=utf-8" />
+		<property name="username" value="root" />
+		<property name="password" value="Abcd1234" />
 	</bean>
 	
     <bean id="tx" class="org.springframework.orm.hibernate4.HibernateTransactionManager">

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.shanbane.entity">
+	<class table="Customer" name="Customer">
+		<id name="id">
+			<generator class="uuid"></generator>
+    	</id>
+    	<property name="name"></property>
+    	<property name="mobile"></property>
+    	<property name="job"></property>
+    	<property name="major"></property>
+    	<property name="university"></property>
+    	<property name="jobYears"></property>
+    	<property name="memsrc"></property>
+    	<property name="createTime"></property>
+    	<property name="followUserId"></property>
+    	<property name="followUserName"></property>
+    	<property name="ybTime"></property>
+    	<property name="fkTime"></property>
+    	<property name="zjTime"></property>
+    </class>
+</hibernate-mapping>
